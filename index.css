@@ -1,0 +1,32 @@
+#results {
+    display:none;
+  }
+
+body {
+    background-image: url(tip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+}
+
+h5 {
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: green;
+}
+
+input[type="range" i] {
+  appearance: auto;
+  cursor: default;
+  color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+  padding: initial;
+  border: initial;
+  margin: 2px;
+}
+
